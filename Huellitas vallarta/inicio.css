@@ -1,0 +1,57 @@
+#inicio{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:aliceblue
+}
+
+.carrusel{
+    width: 1200px;
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+/* aqui se modifica el area de adoptar o registrar un albergue*/
+.adopta_registra{
+    margin-top: 120px;
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    background-color: rgba(0, 255, 255, 0);
+}
+.adopta{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgb(123, 255, 0);
+}
+.registra_albergue{
+    border-radius: 0px 20px 20px 0px;
+    width: 50%;
+    height: 100%;
+   
+    background-color: blue;
+}
+
+
+
+/* aqui se modifican los botones de adoptar y registrar*/
+.button_adoptar{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+.registro_button{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 0px 20px 20px 0px;
+}
